@@ -7,7 +7,7 @@ function onReady () {
  win.loadURL(url.format({
  pathname: path.join(
  __dirname,
- 'dist/Poker420/index.html'),
+ 'dist/oker420/index.html'),
  protocol: 'file:',
  slashes: true
  }))
