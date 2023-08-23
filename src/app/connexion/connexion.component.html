@@ -1,0 +1,18 @@
+<h1>Bienvenue dans Poker 420</h1>
+
+<div *ngIf="connexionVisible" class="mt-5 col-3">
+    <section class="Contexte">
+        <h4>Connectez vous !</h4>
+    </section>
+
+    <form>
+        <label>Nom:</label>
+        <input [(ngModel)]="joueurConnecte.nom" type="text "><br>
+        <label>Mot de passe:</label>
+        <input [(ngModel)]="joueurConnecte.motDePasse" type="password"><br>
+        <button class="btn btn-primary mt-1" (click)="connexion()">Se connecter</button>
+    </form>
+        
+        <br>
+        <button class="btn btn-success mt-1" (click)="creatinCompte()">Se creer un compte</button>
+</div>
